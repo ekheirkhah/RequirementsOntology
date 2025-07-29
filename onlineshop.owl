@@ -1,0 +1,1827 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_cashbox -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_cashbox">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_onlineshop -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_onlineshop">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_storage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_storage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_store -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_store">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_add_goods_to_shopping_cart -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_add_goods_to_shopping_cart">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_goods"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_add_goods_to_site -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_add_goods_to_site">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_authenticate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_authenticate">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_buy_goods_in_shopping_cart -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_buy_goods_in_shopping_cart">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_goods"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_calculate_profit_and_loss -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_calculate_profit_and_loss">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_cancel_pre-purchase -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_cancel_pre-purchase">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_cancel_reservation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_cancel_reservation">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_change_goods -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_change_goods">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_goods"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_change_goods_in_shopping_cart -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_change_goods_in_shopping_cart">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_goods"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_change_password -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_change_password">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_comment_on_the_goods -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_comment_on_the_goods">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_confirm_final_delivery -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_confirm_final_delivery">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_goods"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_create_new_storage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_create_new_storage">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_storage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_define_new_address_for_delivery -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_define_new_address_for_delivery">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_goods"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_define_payment_gateway -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_define_payment_gateway">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_cashbox"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_define_payment_type -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_define_payment_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_cashbox"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_goods"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#supplier_and_cashbox"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_define_several_storages -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_define_several_storages">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_edit_discount_code -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_edit_discount_code">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_cashbox"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_edit_information -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_edit_information">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_edit_invoices -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_edit_invoices">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_edit_pre-purchase -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_edit_pre-purchase">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_edit_reservation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_edit_reservation">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_fire_a_customer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_fire_a_customer">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_get_back_goods -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_get_back_goods">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#supplier_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_get_money -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_get_money">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_cashbox"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#supplier_and_cashbox"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_give_discount_code -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_give_discount_code">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_cashbox"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_issue_invoices -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_issue_invoices">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_move_goods_between_storages -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_move_goods_between_storages">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_storage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_omit_a_good_from_site -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_omit_a_good_from_site">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_pay_back_money -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_pay_back_money">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#supplier_and_cashbox"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_pay_money -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_pay_money">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_cashbox"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_pre-purchase_the_good -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_pre-purchase_the_good">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_read_others_comments -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_read_others_comments">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_register -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_register">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_remove_a_storage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_remove_a_storage">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_storage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_remove_goods_from_shopping_cart -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_remove_goods_from_shopping_cart">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_goods"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_remove_goods_from_site -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_remove_goods_from_site">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_replace_goods -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_replace_goods">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#supplier_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_reserve_good -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_reserve_good">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_retrive_password -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_retrive_password">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_return_goods -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_return_goods">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_goods"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_see_all_goods_onsorted -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_see_all_goods_onsorted">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_goods"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_see_daily_sales_report -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_see_daily_sales_report">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_cashbox"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_see_goods_incatagories -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_see_goods_incatagories">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_goods"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_see_purchase_history -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_see_purchase_history">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_see_the_inventory_of_the_goods -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_see_the_inventory_of_the_goods">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_see_the_list_of_creditors -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_see_the_list_of_creditors">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_cashbox"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_see_the_list_of_debtors -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_see_the_list_of_debtors">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_cashbox"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_send_prompt_customers -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_send_prompt_customers">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_supply_goods -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_supply_goods">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#supplier_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_support_multilingualism -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_support_multilingualism">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_track_status_of_the_order -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_track_status_of_the_order">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_update_storage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_update_storage">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_storage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_update_the_inventory_of_the_goods -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_update_the_inventory_of_the_goods">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_view_customer_performance_report -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_view_customer_performance_report">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_view_periodic_sales_report -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_view_periodic_sales_report">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_cashbox"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_view_supplier_performance_report -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_view_supplier_performance_report">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_view_the_sales_report_of_a_product -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_view_the_sales_report_of_a_product">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_waste_goods -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_waste_goods">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_onlineshop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_cashbox -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_cashbox">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_goods -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_goods">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_onlineshop -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_onlineshop">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#must_access_to_all_storages -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#must_access_to_all_storages">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_store"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#must_be_accessable_in_the_pre-define_percetage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#must_be_accessable_in_the_pre-define_percetage">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_store"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#must_be_designed_beautifully_and_easy_access -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#must_be_designed_beautifully_and_easy_access">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_store"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#must_be_user-friendly -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#must_be_user-friendly">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_store"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#must_ensure_securite_with_encryption -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#must_ensure_securite_with_encryption">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_store"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#must_ensure_security_by_preventing_attacks -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#must_ensure_security_by_preventing_attacks">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_store"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#must_provide_a_response_time_of_less_than_define_time -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#must_provide_a_response_time_of_less_than_define_time">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_store"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#must_supprt_multiplatforms -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#must_supprt_multiplatforms">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_store"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#supplier_and_cashbox -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#supplier_and_cashbox">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#supplier_and_onlineshop -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#supplier_and_onlineshop">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#a-adds -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#a-adds">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-administrator"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#a-email -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#a-email">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-administrator"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#a-id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#a-id">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-administrator"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#a-name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#a-name">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-administrator"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#a-tel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#a-tel">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-administrator"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#access-type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#access-type">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-onlineshop"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#c-adds -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#c-adds">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-customer"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#c-credit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#c-credit">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-customer"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#c-discountcode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#c-discountcode">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-customer"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#c-email -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#c-email">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-customer"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#c-id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#c-id">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-customer"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#c-name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#c-name">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-customer"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#c-tel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#c-tel">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-customer"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#ca-id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#ca-id">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-cashbox"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#cashbox"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#ca-name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#ca-name">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-cashbox"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#cashbox"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#ca-transactiontype -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#ca-transactiontype">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-cashbox"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#cashbox"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-administrator -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-administrator">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-cashbox -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-cashbox">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-customer -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-customer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-goods -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-goods">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-onlineshop -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-onlineshop">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-storage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-storage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-store -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-store">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-supplier -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-supplier">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#g-catagory -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#g-catagory">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-goods"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#goods"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#g-desc -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#g-desc">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-goods"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#goods"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#g-id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#g-id">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-goods"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#goods"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#g-name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#g-name">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-goods"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#goods"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#g-unit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#g-unit">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-goods"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#goods"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#pass -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#pass">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-onlineshop"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#s-adds -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#s-adds">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-supplier"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#supplier"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#s-email -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#s-email">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-supplier"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#supplier"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#s-goods -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#s-goods">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-supplier"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#supplier"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#s-id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#s-id">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-supplier"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#supplier"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#s-name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#s-name">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-supplier"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#supplier"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#s-tel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#s-tel">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-supplier"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#supplier"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#st-adds -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#st-adds">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-storage"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#storage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#st-id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#st-id">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-storage"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#storage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#st-manager -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#st-manager">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-storage"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#storage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#st-name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#st-name">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-storage"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#storage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#st-shelf -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#st-shelf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-storage"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#storage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store-NFR -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store-NFR">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-store"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store-email -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store-email">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-store"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store-name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store-name">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-store"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store-supportel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store-supportel">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-store"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#user -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#user">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#data-onlineshop"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_storage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#cashbox"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_store"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#cashbox"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_add_goods_to_site"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_calculate_profit_and_loss"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_create_new_storage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#storage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_define_payment_gateway"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#cashbox"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_define_several_storages"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_edit_discount_code"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#cashbox"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_edit_invoices"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_fire_a_customer"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_give_discount_code"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#cashbox"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_issue_invoices"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_move_goods_between_storages"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#storage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_omit_a_good_from_site"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_remove_a_storage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#storage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_remove_goods_from_site"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_see_daily_sales_report"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#cashbox"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_see_the_inventory_of_the_goods"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_see_the_list_of_creditors"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#cashbox"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_see_the_list_of_debtors"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#cashbox"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_send_prompt_customers"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_support_multilingualism"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_update_storage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#storage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_update_the_inventory_of_the_goods"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_view_customer_performance_report"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_view_periodic_sales_report"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#cashbox"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_view_supplier_performance_report"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_view_the_sales_report_of_a_product"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_waste_goods"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#must_access_to_all_storages"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#must_be_accessable_in_the_pre-define_percetage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#must_be_designed_beautifully_and_easy_access"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#must_be_user-friendly"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#must_ensure_securite_with_encryption"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#must_ensure_security_by_preventing_attacks"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#must_provide_a_response_time_of_less_than_define_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#must_supprt_multiplatforms"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#supplier_and_onlineshop"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#cashbox"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#cashbox -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#cashbox">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_add_goods_to_shopping_cart"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#goods"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_authenticate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_buy_goods_in_shopping_cart"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#goods"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_cancel_pre-purchase"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_cancel_reservation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_change_goods"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#goods"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_change_goods_in_shopping_cart"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#goods"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_change_password"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_comment_on_the_goods"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_confirm_final_delivery"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#goods"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_define_new_address_for_delivery"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#goods"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_define_payment_type"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#cashbox"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_define_payment_type"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#goods"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_edit_information"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_edit_pre-purchase"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_edit_reservation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_get_money"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#cashbox"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_pay_money"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#cashbox"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_pre-purchase_the_good"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_read_others_comments"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_register"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_remove_goods_from_shopping_cart"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#goods"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_reserve_good"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_retrive_password"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_return_goods"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#goods"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_see_all_goods_onsorted"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#goods"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_see_goods_incatagories"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#goods"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_see_purchase_history"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_track_status_of_the_order"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#goods -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#goods">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#storage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#storage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#supplier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#supplier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_storage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator_and_store"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_define_payment_type"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#cashbox"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_get_back_goods"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_get_money"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#cashbox"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_pay_back_money"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#cashbox"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_replace_goods"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#can_supply_goods"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer_and_onlineshop"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#cashbox"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#NFRs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#NFRs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store"/>
+        <store-NFR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFRs</store-NFR>
+        <store-email rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFR_email</store-email>
+        <store-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">store_name</store-name>
+        <store-supportel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">supporteamtel</store-supportel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#admin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#admin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator"/>
+        <can_add_goods_to_site rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_calculate_profit_and_loss rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_create_new_storage rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#onlineshop-storage"/>
+        <can_define_payment_gateway rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store-cashbox"/>
+        <can_define_several_storages rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_edit_discount_code rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store-cashbox"/>
+        <can_edit_invoices rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_fire_a_customer rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_give_discount_code rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store-cashbox"/>
+        <can_issue_invoices rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_move_goods_between_storages rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#onlineshop-storage"/>
+        <can_omit_a_good_from_site rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_remove_a_storage rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#onlineshop-storage"/>
+        <can_remove_goods_from_site rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_see_daily_sales_report rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store-cashbox"/>
+        <can_see_the_inventory_of_the_goods rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_see_the_list_of_creditors rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store-cashbox"/>
+        <can_see_the_list_of_debtors rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store-cashbox"/>
+        <can_send_prompt_customers rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_support_multilingualism rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#NFRs"/>
+        <can_update_storage rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#onlineshop-storage"/>
+        <can_update_the_inventory_of_the_goods rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_view_customer_performance_report rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_view_periodic_sales_report rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_view_periodic_sales_report rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store-cashbox"/>
+        <can_view_supplier_performance_report rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_waste_goods rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <must_access_to_all_storages rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#onlineshop-storage"/>
+        <must_be_accessable_in_the_pre-define_percetage rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#NFRs"/>
+        <must_be_designed_beautifully_and_easy_access rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#NFRs"/>
+        <must_be_user-friendly rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#NFRs"/>
+        <must_ensure_securite_with_encryption rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#NFRs"/>
+        <must_ensure_security_by_preventing_attacks rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#NFRs"/>
+        <must_provide_a_response_time_of_less_than_define_time rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#NFRs"/>
+        <must_supprt_multiplatforms rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#NFRs"/>
+        <a-adds rdf:datatype="http://www.w3.org/2001/XMLSchema#string">admin-address</a-adds>
+        <a-email rdf:datatype="http://www.w3.org/2001/XMLSchema#string">admin-email</a-email>
+        <a-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">admin-id</a-id>
+        <a-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">admin-name</a-name>
+        <a-tel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">admin-tel</a-tel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-customer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-customer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer"/>
+        <can_add_goods_to_shopping_cart rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#product"/>
+        <can_authenticate rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_buy_goods_in_shopping_cart rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#product"/>
+        <can_cancel_pre-purchase rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_cancel_reservation rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_change_goods rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#product"/>
+        <can_change_goods_in_shopping_cart rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#product"/>
+        <can_change_password rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_comment_on_the_goods rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_confirm_final_delivery rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#product"/>
+        <can_define_new_address_for_delivery rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#product"/>
+        <can_define_payment_type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#product"/>
+        <can_define_payment_type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store-cashbox"/>
+        <can_edit_information rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_edit_pre-purchase rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_edit_reservation rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_get_money rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store-cashbox"/>
+        <can_pay_money rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store-cashbox"/>
+        <can_pre-purchase_the_good rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_read_others_comments rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_register rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_remove_goods_from_shopping_cart rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#product"/>
+        <can_reserve_good rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_retrive_password rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_return_goods rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#product"/>
+        <can_see_all_goods_onsorted rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#product"/>
+        <can_see_goods_incatagories rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#product"/>
+        <can_see_purchase_history rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_track_status_of_the_order rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <customer_and_cashbox rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store-cashbox"/>
+        <c-adds rdf:datatype="http://www.w3.org/2001/XMLSchema#string">customer-address</c-adds>
+        <c-credit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">customer_credit</c-credit>
+        <c-discountcode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">customer_discountcode</c-discountcode>
+        <c-email rdf:datatype="http://www.w3.org/2001/XMLSchema#string">customer_email</c-email>
+        <c-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">customer_id</c-id>
+        <c-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">customer_name</c-name>
+        <c-tel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">customer_tel</c-tel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shop"/>
+        <access-type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">different access types</access-type>
+        <pass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">password</pass>
+        <user rdf:datatype="http://www.w3.org/2001/XMLSchema#string">username</user>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#onlineshop-storage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#onlineshop-storage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#storage"/>
+        <st-adds rdf:datatype="http://www.w3.org/2001/XMLSchema#string">office address</st-adds>
+        <st-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">store id</st-id>
+        <st-manager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">store manager name</st-manager>
+        <st-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">store name</st-name>
+        <st-shelf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shelf number</st-shelf>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#product -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#product">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#goods"/>
+        <g-catagory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">defferent catagories</g-catagory>
+        <g-desc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">product description</g-desc>
+        <g-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">product id</g-id>
+        <g-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">product name</g-name>
+        <g-unit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">product unit</g-unit>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#product-supplier -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#product-supplier">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#supplier"/>
+        <can_define_payment_type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store-cashbox"/>
+        <can_get_back_goods rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_get_money rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store-cashbox"/>
+        <can_pay_back_money rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store-cashbox"/>
+        <can_replace_goods rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <can_supply_goods rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#online-shopping"/>
+        <s-adds rdf:datatype="http://www.w3.org/2001/XMLSchema#string">supplier address</s-adds>
+        <s-email rdf:datatype="http://www.w3.org/2001/XMLSchema#string">supplier email</s-email>
+        <s-goods rdf:datatype="http://www.w3.org/2001/XMLSchema#string">supplier product</s-goods>
+        <s-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">supplier id</s-id>
+        <s-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">supplier name</s-name>
+        <s-tel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">supplier tel</s-tel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store-cashbox -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#store-cashbox">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#cashbox"/>
+        <ca-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cashbox id</ca-id>
+        <ca-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cashbox name</ca-name>
+        <ca-transactiontype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">defferent transactiontypes</ca-transactiontype>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#administrator"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#cashbox"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#customer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#goods"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#storage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2025/5/untitled-ontology-16#supplier"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
