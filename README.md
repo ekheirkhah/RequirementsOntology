@@ -7,6 +7,7 @@ A domain and a range are introduced for each relationship. Then an instance is c
 To view the specified requirements for a class, use the DL Query tab. 
 In the opened page, you can use the name of your instance or class, after activating Reasoner from Reasoner tab, and selecting Pallet as the analyzer, check the boxes you need from the right side of the system. Then click the execute button to complete the analysis and display.
 To view all items using SPARQL, you can use the following code snippet. Type this code snippet in the SPARQL Query tab and click the execute button at the bottom of the page.
+
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
